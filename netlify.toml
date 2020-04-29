@@ -5,6 +5,8 @@
   publish = "post"
 ##  command = "transform-build.sh"
 
+[[plugins]]
+  package = "netlify-plugin-checklinks"
 
 [dev]
 #  command = "./copy-build.sh" # Command to start your dev server
